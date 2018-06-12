@@ -1,5 +1,5 @@
-server-IP:193.175.198.25
+server-IP:censored
 datenbank:wm_2018_team_h
 port:3306
-benutzer:wm_projekt_team_h
-passwort:}y0I6|9n
+benutzer:censored
+passwort:censored
