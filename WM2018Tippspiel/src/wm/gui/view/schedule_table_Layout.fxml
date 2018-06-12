@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane minHeight="310.0" minWidth="423.0" prefHeight="500.0" prefWidth="809.0" stylesheets="@../../../../css/WM2018.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="wm.gui.view.Schedule_Table_Controller">
+   <children>
+      <TableView fx:id="table" prefHeight="509.0" prefWidth="818.0">
+        <columns>
+          <TableColumn fx:id="tc_group" editable="false" prefWidth="100.0" sortable="false" text="Gruppe" />
+          <TableColumn fx:id="tc_date" editable="false" prefWidth="120.0" sortable="false" text="Datum" />
+            <TableColumn fx:id="tc_startTime" editable="false" maxWidth="150.0" prefWidth="104.0" sortable="false" text="Anstoß" />
+            <TableColumn fx:id="tc_homeTeam" editable="false" maxWidth="200.0" minWidth="100.0" prefWidth="150.0" sortable="false" text="Heimmannschaft" />
+            <TableColumn fx:id="tc_split" editable="false" maxWidth="50.0" minWidth="0.0" prefWidth="43.0" sortable="false" text="-" />
+            <TableColumn fx:id="tc_guestTeam" editable="false" maxWidth="200.0" minWidth="100.0" prefWidth="150.0" sortable="false" text="Gastmannschaft" />
+            <TableColumn fx:id="tc_venue" editable="false" maxWidth="200.0" prefWidth="157.0" resizable="false" sortable="false" text="Spielort" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

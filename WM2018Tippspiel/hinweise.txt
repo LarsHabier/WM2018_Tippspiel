@@ -1,0 +1,5 @@
+Bitte beachten Sie, dass bei dieser .jar-Datei die Referenced Libraries nicht dabei sind, diese müssen extra aus dem Ressourcen-
+Order eingebunden werden.
+
+Des Weiteren wurden die nicht fertig gestellten Sonderfunktionen aus dieser .jar entfernt. Die Funktionen waren nicht vollständig 
+und korrekt.

@@ -1,0 +1,64 @@
+﻿;Gruppe A;Moskau;2018-06-14 17:00:00;Russland;SaudiarabienendOfLine
+;Gruppe A;Ekaterinburg;2018-06-15 14:00:00;Ägypten;UruguayendOfLine
+;Gruppe B;St.Petersburg;2018-06-15 17:00:00;Marokko;IranendOfLine
+;Gruppe B;Sochi;2018-06-15 20:00:00;Portugal;SpanienendOfLine
+;Gruppe C;Kazan;2018-06-16 12:00:00;Frankreich;AustralienendOfLine
+;Gruppe D;Moskau;2018-06-16 15:00:00;Argentinien;IslandendOfLine
+;Gruppe C;Saransk;2018-06-16 18:00:00;Peru;DänemarkendOfLine
+;Gruppe D;Kaliningrad;2018-06-16 21:00:00;Kroatien;NigeriaendOfLine
+;Gruppe E;Samara;2018-06-17 14:00:00;Costa Rica;SerbienendOfLine
+;Gruppe F;Moskau;2018-06-17 17:00:00;Deutschland;MexikoendOfLine
+;Gruppe E;Rostov-on-Don;2018-06-17 20:00:00;Brasilien;SchweizendOfLine
+;Gruppe F;Nizhny Novgorod;2018-06-18 14:00:00;Schweden;Korea RepublikendOfLine
+;Gruppe G;Sochi;2018-06-18 17:00:00;Belgien;PanamaendOfLine
+;Gruppe G;Volgograd;2018-06-18 20:00:00;Tunesien;EnglandendOfLine
+;Gruppe H;Saransk;2018-06-19 14:00:00;Kolumbien;JapanendOfLine
+;Gruppe H;Moskau;2018-06-19 17:00:00;Polen;SenegalendOfLine
+;Gruppe A;St.Petersburg;2018-06-19 20:00:00;Russland;ÄgyptenendOfLine
+;Gruppe B;Moskau;2018-06-20 14:00:00;Portugal;MarokkoendOfLine
+;Gruppe A;Rostov-on-Don;2018-06-20 17:00:00;Uruguay;SaudiarabienendOfLine
+;Gruppe B;Kazan;2018-06-20 20:00:00;Iran;SpanienendOfLine
+;Gruppe C;Samara;2018-06-21 14:00:00;Dänemark;AustralienendOfLine
+;Gruppe C;Ekaterinburg;2018-06-21 17:00:00;Frankreich;PeruendOfLine
+;Gruppe D;Nizhny Novgorod;2018-06-21 20:00:00;Argentinien;KroatienendOfLine
+;Gruppe E;St.Petersburg;2018-06-22 14:00:00;Brasilien;Costa RicaendOfLine
+;Gruppe D;Volgograd;2018-06-22 17:00:00;Nigeria;IslandendOfLine
+;Gruppe E;Kaliningrad;2018-06-22 20:00:00;Serbien;SchweizendOfLine
+;Gruppe G;Moskau;2018-06-23 14:00:00;Belgien;TunesienendOfLine
+;Gruppe F;Rostov-on-Don;2018-06-23 17:00:00;Korea Republik;MexikoendOfLine
+;Gruppe F;Sochi;2018-06-23 20:00:00;Deutschland;SchwedenendOfLine
+;Gruppe G;Nizhny Novgorod;2018-06-24 14:00:00;England;PanamaendOfLine
+;Gruppe H;Ekaterinburg;2018-06-24 17:00:00;Japan;SenegalendOfLine
+;Gruppe H;Kazan;2018-06-24 20:00:00;Polen;KolumbienendOfLine
+;Gruppe A;Samara;2018-06-25 16:00:00;Uruguay;RusslandendOfLine
+;Gruppe A;Volgograd;2018-06-25 16:00:00;Saudiarabien;ÄgyptenendOfLine
+;Gruppe B;Kaliningrad;2018-06-25 20:00:00;Spanien;MarokkoendOfLine
+;Gruppe B;Saransk;2018-06-25 20:00:00;Iran;PortugalendOfLine
+;Gruppe C;Moskau;2018-06-26 16:00:00;Dänemark;FrankreichendOfLine
+;Gruppe C;Sochi;2018-06-26 16:00:00;Australien;PeruendOfLine
+;Gruppe D;Rostov-on-Don;2018-06-26 20:00:00;Island;KroatienendOfLine
+;Gruppe D;St.Petersburg;2018-06-26 20:00:00;Nigeria;ArgentinienendOfLine
+;Gruppe F;Ekaterinburg;2018-06-27 16:00:00;Mexiko;SchwedenendOfLine
+;Gruppe F;Kazan;2018-06-27 16:00:00;Korea Republik;DeutschlandendOfLine
+;Gruppe E;Moskau;2018-06-27 20:00:00;Serbien;BrasilienendOfLine
+;Gruppe E;Nizhny Novgorod;2018-06-27 20:00:00;Schweiz;Costa RicaendOfLine
+;Gruppe H;Volgograd;2018-06-28 16:00:00;Japan;PolenendOfLine
+;Gruppe H;Samara;2018-06-28 16:00:00;Senegal;KolumbienendOfLine
+;Gruppe G;Kaliningrad;2018-06-28 20:00:00;England;BelgienendOfLine
+;Gruppe G;Saransk;2018-06-28 20:00:00;Panama;TunesienendOfLine
+;Achtelfinale;Kazan;2018-06-30 16:00:00;Sieger Gruppe C;Zweiter Gruppe DendOfLine
+;Achtelfinale;Sochi;2018-06-30 20:00:00;Sieger Gruppe A;Zweiter Gruppe BendOfLine
+;Achtelfinale;Moskau;2018-07-01 16:00:00;Sieger Gruppe B;Zweiter Gruppe AendOfLine
+;Achtelfinale;Nizhny Novgorod;2018-07-01 20:00:00;Sieger Gruppe D;Zweiter Gruppe CendOfLine
+;Achtelfinale;Samara;2018-07-02 16:00:00;Sieger Gruppe E;Zweiter Gruppe FendOfLine
+;Achtelfinale;Rostov-on-Don;2018-07-02 20:00:00;Sieger Gruppe G;Zweiter Gruppe HendOfLine
+;Achtelfinale;St.Petersburg;2018-07-03 16:00:00;Sieger Gruppe F;Zweiter Gruppe EendOfLine
+;Achtelfinale;Moskau;2018-07-03 20:00:00;Sieger Gruppe H;Zweiter Gruppe GendOfLine
+;Viertelfinale;Nizhny Novgorod;2018-07-06 16:00:00;Sieger AF 1;Sieger AF 2endOfLine
+;Viertelfinale;Kazan;2018-07-06 20:00:00;Sieger AF 6;Sieger AF 5endOfLine
+;Viertelfinale;Samara;2018-07-07 16:00:00;Sieger AF 8;Sieger AF 7endOfLine
+;Viertelfinale;Sochi;2018-07-07 20:00:00;Sieger AF 3;Sieger AF 4endOfLine
+;Halbfinale;St.Petersburg;2018-07-10 20:00:00;Sieger VF 2;Sieger VF 1endOfLine
+;Halbfinale;Moskau;2018-07-11 20:00:00;Sieger VF 4;Sieger VF 3endOfLine
+;3. Platz;St. Petersburg;2018-07-14 16:00:00;Verlierer HF 1;Verlierer HF 2endOfLine
+;Finale   ;Moskau;2018-07-15 17:00:00;Sieger HF 1;Sieger HF 2endOfLine

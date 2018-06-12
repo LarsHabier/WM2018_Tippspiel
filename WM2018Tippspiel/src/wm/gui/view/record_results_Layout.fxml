@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" minHeight="371.0" minWidth="500.0" prefHeight="371.0" prefWidth="501.0" style="-: white;" stylesheets="@../../../../css/WM2018.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="wm.gui.view.Record_Results_Controller">
+   <children>
+      <Label layoutX="25.0" layoutY="25.0" text="Gruppe und Zeit:">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="55.0" text="Spielpaarungen:">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="85.0" text="Halbzeitergebnis:">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="115.0" text="Endergebnis:">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="145.0" text="Verlängerung:">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="175.0" text="Elfmeterschießen:">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="205.0" text="Gelbe Karten:">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="235.0" text="Gelb-Rote Karten:">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="265.0" text="Rote Karten:">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Label>
+      <Button fx:id="btn_save_data" layoutX="303.0" layoutY="309.0" mnemonicParsing="false" onAction="#save_data" prefHeight="31.0" prefWidth="175.0" text="Daten speichern" />
+      <TextField fx:id="tf_match_desc" editable="false" layoutX="154.0" layoutY="20.0" />
+      <TextField fx:id="tf_date" editable="false" layoutX="326.0" layoutY="20.0" />
+      <TextField fx:id="tf_team_home" editable="false" layoutX="154.0" layoutY="50.0" />
+      <TextField fx:id="tf_team_guest" editable="false" layoutX="326.0" layoutY="50.0" />
+      <TextField fx:id="tf_score_half_home" layoutX="154.0" layoutY="80.0" />
+      <TextField fx:id="tf_score_half_guest" layoutX="326.0" layoutY="80.0" />
+      <TextField fx:id="tf_score_final_home" layoutX="154.0" layoutY="110.0" />
+      <TextField fx:id="tf_score_final_guest" layoutX="326.0" layoutY="110.0" />
+      <TextField fx:id="tf_score_extra_time_home" disable="true" layoutX="154.0" layoutY="140.0" />
+      <TextField fx:id="tf_score_extra_time_guest" disable="true" layoutX="326.0" layoutY="140.0" />
+      <TextField fx:id="tf_score_penalty_home" disable="true" layoutX="154.0" layoutY="170.0" />
+      <TextField fx:id="tf_score_penalty_guest" disable="true" layoutX="326.0" layoutY="170.0" />
+      <TextField fx:id="tf_yellow_cards_home" layoutX="154.0" layoutY="200.0" />
+      <TextField fx:id="tf_yellow_cards_guest" layoutX="326.0" layoutY="200.0" />
+      <TextField fx:id="tf_yellow_red_cards_home" layoutX="154.0" layoutY="230.0" />
+      <TextField fx:id="tf_yellow_red_cards_guest" layoutX="326.0" layoutY="230.0" />
+      <TextField fx:id="tf_red_cards_home" layoutX="154.0" layoutY="260.0" />
+      <TextField fx:id="tf_red_cards_guest" layoutX="326.0" layoutY="260.0" />
+      <Button fx:id="btn_next_match" layoutX="122.0" layoutY="309.0" mnemonicParsing="false" onAction="#get_finished_Game" prefHeight="31.0" prefWidth="175.0" text="Nächstes Spiel" />
+   </children>
+</AnchorPane>

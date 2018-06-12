@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane minHeight="376.0" minWidth="500.0" prefHeight="441.0" prefWidth="508.0" stylesheets="@../../../../css/WM2018.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="wm.gui.view.Ranking_Controller">
+   <children>
+      <TableView fx:id="table" layoutY="36.0" prefHeight="414.0" prefWidth="515.0">
+        <columns>
+          <TableColumn fx:id="tc_rank" prefWidth="112.0" text="Platz" />
+          <TableColumn fx:id="tc_bet" prefWidth="135.0" text="Tipper" />
+            <TableColumn fx:id="tc_points" prefWidth="97.0" text="Punkte" />
+            <TableColumn fx:id="tc_group" prefWidth="170.0" text="Gruppe" />
+        </columns>
+      </TableView>
+      <Label fx:id="l_date" layoutX="3.0" layoutY="14.0" prefHeight="17.0" prefWidth="469.0" text="Label" />
+   </children>
+</AnchorPane>

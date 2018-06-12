@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane minHeight="500.0" minWidth="700.0" prefHeight="540.0" prefWidth="918.0" stylesheets="@../../../../css/WM2018.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="wm.gui.view.Match_Results_Table_Controller">
+   <children>
+      <TableView fx:id="table" layoutY="-0.0" prefHeight="551.0" prefWidth="929.0">
+        <columns>
+          <TableColumn fx:id="tc_group" editable="false" maxWidth="200.0" prefWidth="104.33333587646484" sortable="false" text="Spielmodus" />
+          <TableColumn fx:id="tc_homeTeam" editable="false" maxWidth="200.0" prefWidth="122.66665649414062" sortable="false" text="Heimmannschaft" />
+            <TableColumn fx:id="tc_split" editable="false" maxWidth="50.0" prefWidth="37.666656494140625" sortable="false" text="-" />
+            <TableColumn fx:id="tc_guestTeam" editable="false" maxWidth="200.0" prefWidth="107.0" sortable="false" text="Gastmannschaft" />
+            <TableColumn fx:id="tc_halfTime" editable="false" maxWidth="200.0" prefWidth="75.0" sortable="false" text="Halbzeit" />
+            <TableColumn fx:id="tc_finalTime" editable="false" maxWidth="200.0" prefWidth="96.33331298828125" sortable="false" text="Regul. Spielz." />
+            <TableColumn fx:id="tc_extraTime" editable="false" maxWidth="200.0" prefWidth="103.0" sortable="false" text="Verlängerung" />
+            <TableColumn fx:id="tc_penalty" editable="false" maxWidth="200.0" prefWidth="88.3333740234375" sortable="false" text="Elfmeter" />
+            <TableColumn fx:id="tc_yellow" editable="false" maxWidth="200.0" prefWidth="95.0" sortable="false" text="Gelbe Karten" />
+            <TableColumn fx:id="tc_red" editable="false" prefWidth="96.0" sortable="false" text="Rote Karten" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" minHeight="324.0" minWidth="408.0" prefHeight="324.0" prefWidth="408.0" stylesheets="@../../../../css/WM2018.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="wm.gui.view.Local_Connect_Controller">
+   <children>
+      <Label layoutX="19.0" layoutY="79.0" text="IP-Adresse:">
+         <font>
+            <Font name="Arial Bold" size="12.0" />
+         </font></Label>
+      <TextField fx:id="tf_ip" layoutX="107.0" layoutY="75.0" prefHeight="17.0" prefWidth="223.0" promptText="IP-Adresse eingeben..." />
+      <Label layoutX="119.0" layoutY="14.0" prefHeight="25.0" prefWidth="311.0" text="Manuell mit Datenbank verbinden" underline="true">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="19.0" layoutY="115.0" text="Datenbank:">
+         <font>
+            <Font name="Arial Bold" size="12.0" />
+         </font></Label>
+      <TextField fx:id="tf_db" layoutX="107.0" layoutY="111.0" prefHeight="25.0" prefWidth="223.0" promptText="Datenbanknamen eingeben..." />
+      <Label layoutX="19.0" layoutY="146.0" text="Port:">
+      <font>
+            <Font name="Arial Bold" size="12.0" />
+         </font></Label>
+      <TextField fx:id="tf_port" layoutX="107.0" layoutY="142.0" prefHeight="25.0" prefWidth="223.0" text="3306" />
+      <Label layoutX="19.0" layoutY="219.0" text="Passwort:">
+      <font>
+            <Font name="Arial Bold" size="12.0" />
+         </font></Label>
+      <PasswordField fx:id="tf_psw" layoutX="107.0" layoutY="215.0" prefHeight="25.0" prefWidth="223.0" promptText="Passwort eingeben..." />
+      <TextField fx:id="tf_user" layoutX="107.0" layoutY="177.0" prefHeight="25.0" prefWidth="223.0" promptText="Benutzernamen eingeben..." />
+      <Label layoutX="19.0" layoutY="181.0" text="Benutzername:">
+      <font>
+            <Font name="Arial Bold" size="12.0" />
+         </font></Label>
+      <Button fx:id="btn_connect" layoutX="219.0" layoutY="268.0" mnemonicParsing="false" onAction="#connect_manuall_db" prefHeight="27.0" prefWidth="111.0" text="Verbinden" />
+      <Button fx:id="btn_connect_local" layoutX="107.0" layoutY="268.0" mnemonicParsing="false" onAction="#connect_local_db" prefHeight="27.0" prefWidth="101.0" text="Lokal verbinden" />
+   </children>
+</AnchorPane>

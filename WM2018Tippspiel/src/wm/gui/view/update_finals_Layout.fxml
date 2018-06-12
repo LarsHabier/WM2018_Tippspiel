@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" minHeight="263.0" minWidth="600.0" prefHeight="263.0" prefWidth="649.0" stylesheets="@../../../../css/WM2018.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="wm.gui.view.Update_Finals_Controller">
+   <children>
+      <TabPane prefHeight="194.0" prefWidth="698.0" stylesheets="@../../../../css/WM2018.css" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Achtelfinale">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="244.0" prefWidth="632.0" stylesheets="@../../../../css/WM2018.css">
+                     <children>
+                        <Label layoutX="10.0" layoutY="14.0" text="1:" />
+                        <TextField fx:id="tf_achtel1_home" layoutX="30.0" layoutY="10.0" prefHeight="25.0" prefWidth="130.0" />
+                        <TextField fx:id="tf_achtel1_guest" layoutX="170.0" layoutY="10.0" prefHeight="25.0" prefWidth="130.0" />
+                        <Label layoutX="330.0" layoutY="14.0" text="5:" />
+                        <TextField fx:id="tf_achtel5_home" layoutX="350.0" layoutY="10.0" prefHeight="25.0" prefWidth="130.0" />
+                        <TextField fx:id="tf_achtel5_guest" layoutX="490.0" layoutY="10.0" prefHeight="25.0" prefWidth="130.0" />
+                        <Label layoutX="10.0" layoutY="54.0" text="2:" />
+                        <TextField fx:id="tf_achtel2_home" layoutX="30.0" layoutY="50.0" prefHeight="25.0" prefWidth="130.0" />
+                        <TextField fx:id="tf_achtel2_guest" layoutX="170.0" layoutY="50.0" prefHeight="25.0" prefWidth="130.0" />
+                        <Label layoutX="10.0" layoutY="94.0" text="3:" />
+                        <Label layoutX="10.0" layoutY="134.0" text="4:" />
+                        <TextField fx:id="tf_achtel3_home" layoutX="30.0" layoutY="90.0" prefHeight="25.0" prefWidth="130.0" />
+                        <TextField fx:id="tf_achtel4_home" layoutX="30.0" layoutY="129.0" prefHeight="25.0" prefWidth="130.0" />
+                        <TextField fx:id="tf_achtel3_guest" layoutX="170.0" layoutY="90.0" prefHeight="25.0" prefWidth="130.0" />
+                        <TextField fx:id="tf_achtel4_guest" layoutX="170.0" layoutY="129.0" prefHeight="25.0" prefWidth="130.0" />
+                        <Label layoutX="330.0" layoutY="54.0" text="6:" />
+                        <Label layoutX="330.0" layoutY="94.0" text="7:" />
+                        <Label layoutX="330.0" layoutY="134.0" text="8:" />
+                        <TextField fx:id="tf_achtel6_home" layoutX="350.0" layoutY="50.0" prefHeight="25.0" prefWidth="130.0" />
+                        <TextField fx:id="tf_achtel6_guest" layoutX="490.0" layoutY="50.0" prefHeight="25.0" prefWidth="130.0" />
+                        <TextField fx:id="tf_achtel7_home" layoutX="350.0" layoutY="90.0" prefHeight="25.0" prefWidth="130.0" />
+                        <TextField fx:id="tf_achtel7_guest" layoutX="490.0" layoutY="90.0" prefHeight="25.0" prefWidth="130.0" />
+                        <TextField fx:id="tf_achtel8_home" layoutX="350.0" layoutY="129.0" prefHeight="25.0" prefWidth="130.0" />
+                        <TextField fx:id="tf_achtel8_guest" layoutX="490.0" layoutY="129.0" prefHeight="25.0" prefWidth="130.0" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="Viertelfinale">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Label layoutX="130.0" layoutY="14.0" text="1:" />
+                        <TextField fx:id="tf_viertel1_home" layoutX="181.0" layoutY="10.0" />
+                        <TextField fx:id="tf_viertel1_guest" layoutX="359.0" layoutY="10.0" />
+                        <Label layoutX="130.0" layoutY="54.0" text="2:" />
+                        <TextField fx:id="tf_viertel2_home" layoutX="181.0" layoutY="50.0" />
+                        <TextField fx:id="tf_viertel2_guest" layoutX="359.0" layoutY="50.0" />
+                        <Label layoutX="130.0" layoutY="94.0" text="3:" />
+                        <TextField fx:id="tf_viertel3_home" layoutX="181.0" layoutY="90.0" />
+                        <TextField fx:id="tf_viertel3_guest" layoutX="359.0" layoutY="90.0" />
+                        <Label layoutX="130.0" layoutY="134.0" text="4:" />
+                        <TextField fx:id="tf_viertel4_home" layoutX="181.0" layoutY="130.0" />
+                        <TextField fx:id="tf_viertel4_guest" layoutX="359.0" layoutY="130.0" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+            <Tab text="Halbfinale">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Label layoutX="130.0" layoutY="59.0" text="1:" />
+                        <TextField fx:id="tf_halb1_home" layoutX="167.0" layoutY="55.0" />
+                        <TextField fx:id="tf_halb1_guest" layoutX="339.0" layoutY="55.0" />
+                        <Label layoutX="130.0" layoutY="100.0" text="2:" />
+                        <TextField fx:id="tf_halb2_home" layoutX="167.0" layoutY="96.0" />
+                        <TextField fx:id="tf_halb2_guest" layoutX="339.0" layoutY="96.0" />
+                     </children>
+                  </AnchorPane>
+              </content>
+            </Tab>
+            <Tab text="Platz 3">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Label layoutX="102.0" layoutY="92.0" text="3. Platz:" />
+                        <TextField fx:id="tf_3rd_home" layoutX="167.0" layoutY="88.0" />
+                        <TextField fx:id="tf_3rd_guest" layoutX="338.0" layoutY="88.0" />
+                     </children>
+                  </AnchorPane>
+              </content>
+            </Tab>
+            <Tab text="Finale">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="163.0" prefWidth="632.0">
+                     <children>
+                        <Label layoutX="102.0" layoutY="92.0" text="Finale:" />
+                        <TextField fx:id="tf_final_home" layoutX="167.0" layoutY="88.0" />
+                        <TextField fx:id="tf_final_guest" layoutX="338.0" layoutY="88.0" />
+                     </children>
+                  </AnchorPane>
+              </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+      <Button fx:id="btn_save_data" layoutX="170.0" layoutY="217.0" mnemonicParsing="false" onAction="#save_final_data" prefHeight="26.0" prefWidth="292.0" text="Daten speichern" />
+   </children>
+</AnchorPane>
